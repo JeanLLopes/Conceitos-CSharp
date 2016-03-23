@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceitoDicionariosGenericos.Console", "ConceitoCSharp.Project.Console\ConceitoDicionariosGenericos.Console.csproj", "{93B11309-7A18-40D3-8BAF-BE761D5BF345}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicionariosGenericos", "ConceitoCSharp.Project.Console\DicionariosGenericos.csproj", "{93B11309-7A18-40D3-8BAF-BE761D5BF345}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceitoInterface.Console", "ConceitoInterface.Console\ConceitoInterface.Console.csproj", "{E59558D8-B7F5-44B8-ADAB-8B959825E75D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceitoInterface", "ConceitoInterface.Console\ConceitoInterface.csproj", "{E59558D8-B7F5-44B8-ADAB-8B959825E75D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColecoesComGenerics", "ColecoesComGenerics\ColecoesComGenerics.csproj", "{A0B09CE2-0B9A-40EF-A1E8-ABBDC00FBB63}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisibilidadeDaClasse", "VisibilidadeDaClasse\VisibilidadeDaClasse.csproj", "{F55B3ACE-BE3F-40CD-9AB0-012032685007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TratamentoErrosDebug", "TratamentoErrosDebug\TratamentoErrosDebug.csproj", "{3D814112-F595-4519-AD23-29603C3583DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompararDados", "CompararDados\CompararDados.csproj", "{4A09E800-8AB0-40BF-9916-7814BAFBD54E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosExtensao", "MetodosExtensao\MetodosExtensao.csproj", "{21967E9D-45F4-4C92-A968-5F4F53043978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposAnonimos", "TiposAnonimos\TiposAnonimos.csproj", "{D20A3F9B-18D8-4F19-A1D2-111BBD5968AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceitoDelegate", "ConceitoDelegate\ConceitoDelegate.csproj", "{851CB5A0-6B22-4544-A18A-ABC095A68D9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,26 @@ Global
 		{F55B3ACE-BE3F-40CD-9AB0-012032685007}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F55B3ACE-BE3F-40CD-9AB0-012032685007}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F55B3ACE-BE3F-40CD-9AB0-012032685007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D814112-F595-4519-AD23-29603C3583DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D814112-F595-4519-AD23-29603C3583DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D814112-F595-4519-AD23-29603C3583DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D814112-F595-4519-AD23-29603C3583DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A09E800-8AB0-40BF-9916-7814BAFBD54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A09E800-8AB0-40BF-9916-7814BAFBD54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A09E800-8AB0-40BF-9916-7814BAFBD54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A09E800-8AB0-40BF-9916-7814BAFBD54E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21967E9D-45F4-4C92-A968-5F4F53043978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21967E9D-45F4-4C92-A968-5F4F53043978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21967E9D-45F4-4C92-A968-5F4F53043978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21967E9D-45F4-4C92-A968-5F4F53043978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20A3F9B-18D8-4F19-A1D2-111BBD5968AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20A3F9B-18D8-4F19-A1D2-111BBD5968AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20A3F9B-18D8-4F19-A1D2-111BBD5968AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20A3F9B-18D8-4F19-A1D2-111BBD5968AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851CB5A0-6B22-4544-A18A-ABC095A68D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851CB5A0-6B22-4544-A18A-ABC095A68D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851CB5A0-6B22-4544-A18A-ABC095A68D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851CB5A0-6B22-4544-A18A-ABC095A68D9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
