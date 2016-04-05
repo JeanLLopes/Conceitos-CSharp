@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceitoUsoPredicate", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressoesLambda", "ExpressoesLambda\ExpressoesLambda.csproj", "{31BD23A2-CD56-4CB5-ADF3-9A61C7AEBDFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametrosOpcionaisCSharp", "ParametrosOpcionaisCSharp\ParametrosOpcionaisCSharp.csproj", "{95EDFF8A-226D-4085-828F-B972E7FBB100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColecoesTuple", "ColecoesTuple\ColecoesTuple.csproj", "{4E81C55C-DBDF-4CF0-BDEE-19E3172D9965}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{31BD23A2-CD56-4CB5-ADF3-9A61C7AEBDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31BD23A2-CD56-4CB5-ADF3-9A61C7AEBDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31BD23A2-CD56-4CB5-ADF3-9A61C7AEBDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95EDFF8A-226D-4085-828F-B972E7FBB100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EDFF8A-226D-4085-828F-B972E7FBB100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EDFF8A-226D-4085-828F-B972E7FBB100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EDFF8A-226D-4085-828F-B972E7FBB100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E81C55C-DBDF-4CF0-BDEE-19E3172D9965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E81C55C-DBDF-4CF0-BDEE-19E3172D9965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E81C55C-DBDF-4CF0-BDEE-19E3172D9965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E81C55C-DBDF-4CF0-BDEE-19E3172D9965}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
